@@ -20,11 +20,22 @@ app.use('/contacts', contactsRoutes);
 
 
 
-mongodb.initDb((err, mongodb) => {
-  if (err) {
-    console.log(err);
-  } else {
-    app.listen(PORT);
-    console.log(`Connected to DB and listening on ${PORT}`);
-  }
-});
+// mongodb.initDb((err, db) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     app.listen(PORT);
+//     console.log(`Connected to DB and listening on ${PORT}`);
+//   }
+// });
+// Database Initialization and Server Start
+mongodb.initDb((err, db) => {
+    if (err) {
+      console.error('Database connection failed:', err);
+      process.exit(1); // Exit if the database connection fails
+    } else {
+      app.listen(PORT, () => {
+        console.log(`Connected to DB and server is running on http://localhost:${PORT}`);
+      });
+    }
+  });

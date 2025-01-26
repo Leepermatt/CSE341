@@ -39,13 +39,14 @@ DELETE http://localhost:3000/contacts/6795b6b7255f725075505a91 HTTP/1.1
 Content-Type: application/json
 
 // PRODUCTION Deploy
-###
+### view all contacts
 https://cse341-241y.onrender.com/contacts
-###
+### view this contact
 https://cse341-241y.onrender.com/contacts/678b116d5b004e8c03c5174c
-###
+### view this contact
 https://cse341-241y.onrender.com/contacts/678b11825b004e8c03c5174e
-###
+
+###view this contact
 https://cse341-241y.onrender.com/contacts/678b118d5b004e8c03c51750
 ###
 ### Create a new contact

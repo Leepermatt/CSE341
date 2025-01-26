@@ -48,3 +48,30 @@ https://cse341-241y.onrender.com/contacts/678b11825b004e8c03c5174e
 ###
 https://cse341-241y.onrender.com/contacts/678b118d5b004e8c03c51750
 ###
+### Create a new contact
+POST https://cse341-241y.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+     "firstName": "Kelly",
+      "lastName": "Leeper",
+      "email": "kellyleeper@gmail.com",
+      "favoriteColor": "brown",
+      "birthday": "2024-04-15"
+}
+
+### Update an existing contact
+PUT https://cse341-241y.onrender.com/contacts/678b116d5b004e8c03c5174c HTTP/1.1
+Content-Type: application/json
+
+{
+     "firstName": "Kelly",
+      "lastName": "Leeper",
+      "email": "kellyleeper@gmail.com",
+      "favoriteColor": "blue",
+      "birthday": "2024-04-15"
+}
+
+### Delete a contact
+DELETE https://cse341-241y.onrender.com/contacts/678b116d5b004e8c03c5174c HTTP/1.1
+Content-Type: application/json

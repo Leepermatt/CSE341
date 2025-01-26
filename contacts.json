@@ -1,0 +1,26 @@
+
+    {
+      "contact": {
+      "firstName": "Kyle",
+      "lastName": "Leeper",
+      "email": "kyleleeper@gmail.com",
+      "favoriteColor": "red",
+      "birthday": "2013-05-15"
+    },
+     "contact2": {
+      "firstName": "Keira",
+      "lastName": "Leeper",
+      "email": "keiraleeper#gmail.com",
+      "favoriteColor": "red",
+      "birthday": "2004-04-15"
+    },
+      "contact3": {
+      "firstName": "Kaelyn",
+      "lastName": "Leeper",
+      "email": "kealynleeper@gmail.com",
+      "favoriteColor": "purple",
+      "birthday": "2009-12-05"
+    }
+  }
+  
+  

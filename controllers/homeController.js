@@ -1,3 +1,12 @@
+const displayName = (req, res) => {
+  res.send('Joseph Smith');
+};
+
+module.exports = {
+  displayName,
+};
+
+
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 

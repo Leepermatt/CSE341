@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 //app.use('/', homeRoute);
 app.use(express.json());
 
-
+//app.use(cors());
 
 // Set CORS headers
 app.use((req, res, next) => {
